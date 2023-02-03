@@ -1,0 +1,56 @@
+.Main{
+
+    width: 400px;
+    height: 500px;
+    background-color: rgb(241, 214, 214);
+    margin: auto;
+    border-radius: 10px;
+}
+
+.h1{
+
+    color: #fff;
+}
+
+.h3{
+
+    font-size: 14px;
+    color: rgb(97, 96, 98);
+    margin: 40px;
+    text-transform: uppercase;
+}
+
+
+
+/* .box{
+
+    width: 400px;
+    height: 200px;
+    background-color: rgb(30, 30, 30);
+} */
+
+.img{
+
+    width: 400px;
+    height: 200px;
+}
+
+
+.parent{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+
+@media only screen and (max-width: 640px) {
+    .Main {
+      width: auto;
+    }
+
+    .img{
+
+        width: 100%;
+    }
+  }
